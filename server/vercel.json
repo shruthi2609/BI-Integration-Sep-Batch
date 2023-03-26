@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "name": "biintegrationhosting",
+    "builds": [
+       { "src": "*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/" }
+    ]
+}
